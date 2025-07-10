@@ -1,9 +1,7 @@
-import {
-  MotionPhotosOnIcon,
-  TaskAltIcon,
-  DollarIcon,
-  StreakIcon,
-} from "./Icons";
+import task_alt from "../assets/task_alt.png";
+import motion_photo_on from "../assets/motion_photo_on.png";
+import attach_money from "../assets/attach_money.png";
+import streak from "../assets/local_fire_department.png";
 
 const StatsPanel = () => {
   const days = ["Wed", "Thu", "Fri", "Sat", "Sun", "Mon", "Today"];
@@ -24,7 +22,7 @@ const StatsPanel = () => {
               <span className="text-sm text-gray-500">Streaks</span>
               <div className="flex items-center justify-end space-x-1">
                 <span className="text-2xl font-bold text-gray-800">1</span>
-                <StreakIcon />
+                <img src={streak} alt="Streak Icon" width="15" height="17" />
               </div>
             </div>
           </div>
@@ -34,7 +32,21 @@ const StatsPanel = () => {
             {days.map((day) => (
               <div key={day} className="text-center">
                 <div className="mb-1">
-                  {day === "Sat" ? <TaskAltIcon /> : <MotionPhotosOnIcon />}
+                  {day === "Sat" ? (
+                    <img
+                      src={task_alt}
+                      alt="Task alt Icon"
+                      width="28"
+                      height="28"
+                    />
+                  ) : (
+                    <img
+                      src={motion_photo_on}
+                      alt="Motion Photo on Icon"
+                      width="28"
+                      height="28"
+                    />
+                  )}
                 </div>
                 <span>{day}</span>
               </div>
@@ -60,7 +72,7 @@ const StatsPanel = () => {
         </button>
       </div>
       <button className="w-full bg-blue-500 text-white py-3 px-4 rounded-md hover:bg-blue-600 transition-colors font-medium flex items-center justify-center space-x-2">
-        <DollarIcon />
+        <img src={attach_money} alt="Dollar Icon" width="18" height="30" />
         <span>View Billing Details</span>
       </button>
     </div>

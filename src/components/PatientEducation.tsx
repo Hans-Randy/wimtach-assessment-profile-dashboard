@@ -1,4 +1,4 @@
-import journeyMap from "../assets/range_of_motion_restoration.png";
+import range_of_motion_restoration from "../assets/range_of_motion_restoration.png";
 
 const PatientEducation = () => {
   return (
@@ -7,7 +7,12 @@ const PatientEducation = () => {
       <hr className="my-4 border-gray-200" />
       <p className="text-gray-900 mb-6">Coming soon</p>
       <div className="flex justify-center">
-        <img src={journeyMap} alt="Range of Motion Restoration" />
+        <img
+          src={range_of_motion_restoration}
+          alt="Range of Motion Restoration"
+          width="318px"
+          height="153px"
+        />
       </div>
     </div>
   );
