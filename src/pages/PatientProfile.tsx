@@ -19,7 +19,7 @@ const PatientProfile = () => {
           </div>
 
           {/* Right Column (Stats Panel) */}
-          <div className="w-80 flex-shrink-0">
+          <div className="w-[35%] flex-shrink-0">
             <StatsPanel />
           </div>
         </div>

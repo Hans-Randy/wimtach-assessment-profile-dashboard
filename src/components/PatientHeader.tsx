@@ -1,5 +1,3 @@
-import React from "react";
-
 const PatientHeader = () => {
   return (
     <div className="space-y-4">
@@ -9,7 +7,7 @@ const PatientHeader = () => {
       {/* Main Card */}
       <div className="bg-white rounded-lg p-6 shadow-sm flex items-center justify-between">
         {/* Left Side: Patient Info */}
-        <div className="flex items-start space-x-6">
+        <div className="w-[35%] flex items-start space-x-6">
           <div className="w-16 h-16 bg-gray-400 rounded-full flex items-center justify-center text-white font-bold text-xl flex-shrink-0">
             WI
           </div>
@@ -27,15 +25,15 @@ const PatientHeader = () => {
         {/* Right Side: Contact Details */}
         <div className="flex items-center space-x-4">
           <div className="border border-gray-200 rounded-lg p-6">
-            <div className="grid grid-cols-2 gap-x-8 gap-y-4">
+            <div className="grid grid-cols-2 gap-y-2">
               <div>
-                <label className="block text-sm font-medium text-gray-500">
+                <label className="text-sm font-medium text-gray-500">
                   Phone:
                 </label>
                 <p className="text-gray-900 font-semibold">(555) 555-5555</p>
               </div>
               <div>
-                <label className="block text-sm font-medium text-gray-500">
+                <label className="text-sm font-medium text-gray-500">
                   Email:
                 </label>
                 <p className="text-gray-900 font-semibold">
@@ -43,13 +41,13 @@ const PatientHeader = () => {
                 </p>
               </div>
               <div>
-                <label className="block text-sm font-medium text-gray-500">
+                <label className="text-sm font-medium text-gray-500">
                   Injury Location:
                 </label>
                 <p className="text-gray-900 font-semibold">Right</p>
               </div>
               <div>
-                <label className="block text-sm font-medium text-gray-500">
+                <label className="text-sm font-medium text-gray-500">
                   Diagnosis:
                 </label>
                 <p className="text-gray-900 font-semibold">
