@@ -1,11 +1,8 @@
 const PatientHeader = () => {
   return (
     <div className="space-y-4">
-      {/* Breadcrumb */}
       <div className="text-sm text-[#4D4482]">Dashboard / Wimtach Client</div>
-
-      {/* Main Card */}
-      <div className="bg-white rounded-lg p-6 shadow-sm flex items-center justify-between">
+      <div className="flex items-center justify-between">
         {/* Left Side: Patient Info */}
         <div className="w-[35%] flex items-start space-x-6">
           <div className="w-16 h-16 bg-gray-400 rounded-full flex items-center justify-center text-white font-bold text-xl flex-shrink-0">
@@ -21,7 +18,6 @@ const PatientHeader = () => {
             </button>
           </div>
         </div>
-
         {/* Right Side: Contact Details */}
         <div className="flex items-center space-x-4">
           <div className="border border-gray-200 rounded-lg p-6">
