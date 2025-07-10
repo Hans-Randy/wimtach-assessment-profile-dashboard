@@ -13,13 +13,13 @@ const PatientProfile = () => {
         <PatientHeader />
         <div className="flex space-x-6">
           {/* Left Column */}
-          <div className="flex-1 flex flex-col space-y-6">
+          <div className="w-[750px] flex-1 flex flex-col space-y-6">
             <HEPSummaryCard />
             <PatientEducation />
           </div>
 
           {/* Right Column (Stats Panel) */}
-          <div className="w-[35%] flex-shrink-0">
+          <div className="w-[407px] flex-shrink-0">
             <StatsPanel />
           </div>
         </div>
