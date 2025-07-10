@@ -1,10 +1,4 @@
-const SidebarIcon = ({
-  icon,
-  label,
-}: {
-  icon: React.ReactNode;
-  label: string;
-}) => (
+const Icon = ({ icon, label }: { icon: React.ReactNode; label: string }) => (
   <div
     className="p-3 text-white hover:bg-[#704da8] rounded-lg cursor-pointer"
     aria-label={label}
@@ -13,4 +7,4 @@ const SidebarIcon = ({
   </div>
 );
 
-export default SidebarIcon;
+export default Icon;
