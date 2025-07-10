@@ -71,7 +71,7 @@ const StatsPanel = () => {
           View Stats
         </button>
       </div>
-      <button className="w-full bg-blue-500 text-white py-3 px-4 rounded-md hover:bg-blue-600 transition-colors font-medium flex items-center justify-center space-x-2">
+      <button className="w-full h-[72px] bg-blue-500 text-white px-8 rounded-md hover:bg-blue-600 transition-colors font-medium flex items-center space-x-8">
         <img src={attach_money} alt="Dollar Icon" width="18" height="30" />
         <span>View Billing Details</span>
       </button>

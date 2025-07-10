@@ -56,7 +56,7 @@ const PatientHeader = () => {
             </div>
           </div>
 
-          <button className="flex h-12 w-12 items-center justify-center rounded-lg bg-slate-400 text-white shadow-md transition-colors hover:bg-slate-500">
+          <button className="flex h-[43px] w-[45.01px] items-center justify-center rounded-lg bg-slate-400 text-white shadow-md transition-colors hover:bg-slate-500">
             <img src={edit_icon} alt="Edit Icon" width={21} height={21} />
           </button>
         </div>
