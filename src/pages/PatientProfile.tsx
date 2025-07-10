@@ -11,7 +11,7 @@ const PatientProfile = () => {
       <Sidebar />
       <main className="flex-1 p-6 space-y-6">
         <PatientHeader />
-        <div className="flex space-x-6">
+        <div className="w-[1206px] flex space-x-6">
           {/* Left Column */}
           <div className="w-[750px] flex-1 flex flex-col space-y-6">
             <HEPSummaryCard />
@@ -19,12 +19,12 @@ const PatientProfile = () => {
           </div>
 
           {/* Right Column (Stats Panel) */}
-          <div className="w-[407px] flex-shrink-0">
+          <div className="w-[407px] flex-shrink-0 relative">
             <StatsPanel />
+            <FloatingActionButton />
           </div>
         </div>
       </main>
-      <FloatingActionButton />
     </div>
   );
 };
