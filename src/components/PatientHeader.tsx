@@ -4,7 +4,7 @@ const PatientHeader = () => {
   return (
     <div>
       <div className="text-sm text-[#4D4482]">Dashboard / Wimtach Client</div>
-      <div className="w-[1297px] flex items-center justify-between">
+      <div className="flex items-center justify-between">
         {/* Left Side: Patient Info */}
         <div className="flex items-start space-x-6">
           <div className="w-16 h-16 bg-gray-400 rounded-full flex items-center justify-center text-white font-bold text-xl flex-shrink-0">
@@ -22,7 +22,7 @@ const PatientHeader = () => {
         </div>
         {/* Right Side: Contact Details */}
         <div className="flex items-center space-x-4">
-          <div className="w-[741px] flex-grow flex-shrink border border-gray-200 rounded-lg p-6">
+          <div className="w-[741px]  border border-gray-200 rounded-lg p-6">
             <div className="grid grid-cols-2 gap-y-2">
               <div>
                 <label className="text-sm font-medium text-gray-500">
